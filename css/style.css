@@ -1,36 +1,36 @@
 .mainbox{
-    background-color: #036666;
-    width: 800px;
-    height: 400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30%;
-    grid-gap: 10px;
-    margin: auto;
-    margin-top: 20%;
-    border:#036666 solid 10px;
-    
+  background-color: #036666;
+  width: 800px;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: auto;
+  border:#036666 solid 10px;
+  border-radius: 20px;
 }
 
 #one{
-  background-color: #469d89;
-  border-radius: 20px;
-  
+background-color: #469d89;
+height: 100%;
 }
+
+
+
 #two{
 background-color: #469d89;
-height: 333%;
-border-radius: 20px;
+height: 100%;
 }
+
 #three{
-   background-color: #469d89;
-   height: 100%;
-   border-radius: 20px;
+ background-color: #469d89;
+ height: 100%;
 } 
+
 body{
-    background-color: #248277;
+  background-color: #248277;
 }
 
 h3{
-  font-size: 15px;
+font-size: 15px;
 }
