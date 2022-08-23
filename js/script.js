@@ -39,3 +39,17 @@ $.ajax(URL+userInput).then(
  );
 } 
 
+function resetText() {
+   $name.text  (" ")
+   $description.text  (" ")
+   $vision.text  (" ")
+   $weapon.text (" ")
+   $rarity.text  (" ")
+   $constellation.text (" ")
+   $faction.text (" ")
+   $nation.text (" ")
+   $ab1n.text (" ")
+   $ab1d.text (" ")
+   $ab2n.text (" ")
+   $ab2d.text (" ")
+}
