@@ -22,7 +22,7 @@ if ( userInput === '') return;
 $.ajax(URL+userInput).then(
      function (data) {
         console.log(data)
-         $name.text  (data.name)
+        $name.text  (data.name)
         $description.text  (data.description)
         $vision.text  (data.vision)
         $weapon.text (data.weapon)
@@ -38,3 +38,4 @@ $.ajax(URL+userInput).then(
     }
  );
 } 
+
