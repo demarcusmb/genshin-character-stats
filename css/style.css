@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 5px;
   margin: auto;
   border:#036666 solid 10px;
   border-radius: 20px;
@@ -13,18 +14,20 @@
 #one{
 background-color: #469d89;
 height: 100%;
+width: 100%;
+text-align: center;
 }
-
-
 
 #two{
 background-color: #469d89;
 height: 100%;
+text-align: center;
 }
 
 #three{
  background-color: #469d89;
  height: 100%;
+ text-align: center;
 } 
 
 body{
