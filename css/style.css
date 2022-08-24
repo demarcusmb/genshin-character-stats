@@ -1,4 +1,10 @@
+@font-face {
+  font-family: bestfont;
+  src: url(/fonts/zrnic\ rg.ttf);
+}
+
 .mainbox{
+  display: flex;
   background-color: #036666;
   width: 800px;
   height: 1000px;
@@ -8,40 +14,56 @@
   grid-gap: 5px;
   margin: auto;
   border:#036666 solid 10px;
+  opacity: .75;
   border-radius: 20px;
 }
 
 #one{
+
 background-color: #469d89;
 height: 100%;
 width: 100%;
 text-align: center;
+justify-content: center;
 }
 
 #two{
+  display: flex;
 background-color: #469d89;
 height: 100%;
 text-align: center;
+justify-content: center;
+
+}
+
+#two > div{
+  align-items: center;
+}
+
+#fr {
+  border-right: #036666 solid 5px;
 }
 
 #three{
  background-color: #469d89;
  height: 100%;
  text-align: center;
+ justify-content: center;
 } 
+
 
 body{
   background-color: #248277;
-  background-image: url("https://images5.alphacoders.com/110/1108905.jpg")
+  background-image: url(/backgrounds/11234-aether.jpeg)
 }
 
 h3{
 font-size: 15px;
-font-family:'Lucida Sans', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: bestfont;
 }
 
 p{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: bestfont;
 }
 
 @media screen {
@@ -51,3 +73,4 @@ p{
   background-attachment: fixed;
   }    
 }
+

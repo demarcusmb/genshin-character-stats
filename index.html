@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,44 +10,91 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-<div class="mainbox">
-    <div id="one">
+    <div class="mainbox">
+
+        <div id="one">
+
             <form>
-        <label>
-            <input  type="text" class="search" placeholder="Character Name" size="50"/>
-            <input type="submit" value="Get Character Data">
-            <input type="reset" onclick="resetText()" value="Reset Data">
-        </label>
-    </form>
+                <label>
+                    <input type="text" class="search" placeholder="Character Name" size="50" />
+                    <input type="submit" value="Get Character Data">
+                    <input type="reset" onclick="resetText()" value="Reset Data">
+                </label>
+            </form>
             <h3>Name</h3>
             <p id="name"></p>
-        <h3>Constellation</h3>
+            <hr>
+
+            <h3>Constellation</h3>
             <p id="constellation"></p>
-        <h3>Vision</h3>
+            <hr>
+            
+            <h3>Vision</h3>
             <p id="vision"></p>
-        <h3>Weapon</h3>
+            <hr>
+
+            <h3>Weapon</h3>
             <p id="weapon"></p>
-        <h3>Star Rarity</h3>
+            <hr>
+
+            <h3>Star Rarity</h3>
             <p id="rarity"></p>
+
+        </div>
+
+        <div id="two">
+
+            <div id="fr">
+
+                <h3>Ability 1</h3>
+                <hr>
+                <p id="ab1n"></p>
+                <p id="ab1d"></p>
+
+            </div>
+
+            <div>
+
+                <h3>Ability 2</h3>
+                <hr>
+                <p id="ab2n"></p>
+                <p id="ab2d"></p>
+
+            </div>
+
+        </div>
+
+        <div id="three">
+
+            <div>
+
+                <h3>Faction</h3>
+                <hr>
+                <p id="faction"></p>
+
+            </div>
+
+            <div>
+
+                <h3>Nation</h3>
+                <hr>
+                <p id="nation"></p>
+
+            </div>
+
+            <div>
+
+                <h3>Description</h3>
+                <p id="description"></p>
+
+            </div>
+
+        </div>
+
     </div>
-    <div id="two">
-        <h3>Ability 1</h3>
-        <p id="ab1n"></p>
-        <p id="ab1d"></p>
-        <h3>Ability 2</h3>
-        <p id="ab2n"></p>
-        <p id="ab2d"></p>
-    </div>
-<div id="three">
-          <h3>Faction</h3>
-            <p id="faction"></p>
-        <h3>Nation</h3>
-            <p id="nation"></p>
-        <h3>Description</h3>
-            <p id="description"></p>
-    </div>
-</div>
 
 </body>
+
 </html>
