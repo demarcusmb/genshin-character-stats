@@ -34,7 +34,7 @@ $.ajax(URL+userInput).then(
         $ab1d.text (data.skillTalents[1].description)
         $ab2n.text (data.skillTalents[2].name)
         $ab2d.text (data.skillTalents[2].description)
-        $input.val('')
+        
     }
  );
 } 
