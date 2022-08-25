@@ -8,9 +8,8 @@
   background-color: #036666;
   width: 800px;
   height: 1000px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   grid-gap: 5px;
   margin: auto;
   border:#036666 solid 10px;
@@ -37,7 +36,7 @@ justify-content: center;
 }
 
 #two > div{
-  align-items: center;
+  width: 50%;
 }
 
 #fr {
