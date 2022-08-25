@@ -68,7 +68,7 @@ input::placeholder{
 
 
 body{
-  display: dlex;
+  display: flex;
   background-color: #248277;
   background-image: url(/backgrounds/11234-aether.jpeg)
 }
