@@ -24,6 +24,7 @@ height: 100%;
 width: 100%;
 text-align: center;
 justify-content: center;
+
 }
 
 #two{
@@ -44,14 +45,30 @@ justify-content: center;
 }
 
 #three{
+  display: flex;
+  flex-direction: column;
  background-color: #469d89;
  height: 100%;
  text-align: center;
  justify-content: center;
 } 
 
+#gr{
+  border-bottom: 5px solid #036666;
+}
+
+input[type = "text"], textarea {
+  background-color: #469d89;
+}
+
+input::placeholder{
+  color:black;
+}
+
+
 
 body{
+  display: dlex;
   background-color: #248277;
   background-image: url(/backgrounds/11234-aether.jpeg)
 }
@@ -67,9 +84,10 @@ p{
 
 @media screen {
   body {
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }    
 }
+
 
