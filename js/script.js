@@ -1,5 +1,5 @@
 const URL = "https://api.genshin.dev/characters/"
-
+// Variables
 const $name = $('#name')
 const $description = $('#description')
 const $vision = $('#vision')
@@ -15,15 +15,19 @@ const $faction = $('#faction')
 const $form = $('form')
 const $input = $( 'input[type="text"]' )
 
+// Allows me to submit the search
 $form.on( 'submit', handleGetData )
+
+
 
 function handleGetData (event)
 {
-event.preventDefault()
-userInput = $input.val()
-if ( userInput === '') return;
-$.ajax(URL+userInput).then(
+event.preventDefault() // prevents site restarting before getting response
+userInput = $input.val() // assigns the input value to userInput
+if ( userInput === '') return; // returns the userInput if its a string
+$.ajax(URL+userInput).then( // Combines the URL + the userInput to pull information from the api with ajax
      function (data) {
+      // Grabs the info within the api and displays it as the text within the variables
         console.log(data)
         $name.text  (data.name)
         $description.text  (data.description)
@@ -40,6 +44,7 @@ $.ajax(URL+userInput).then(
     }
  );
 } 
+
 //Function that resets all text
 function resetText() {
    $name.text  (" ")
